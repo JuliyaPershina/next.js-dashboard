@@ -1,0 +1,3 @@
+{
+  "buildCommand": "pnpm add -D typescript@latest && pnpm run build"
+}
