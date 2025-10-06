@@ -1,3 +1,3 @@
 {
-  "buildCommand": "copy tsconfig.production.json tsconfig.json && pnpm install && pnpm run build"
+  "buildCommand": "cp tsconfig.production.json tsconfig.json && pnpm install && pnpm run build"
 }
