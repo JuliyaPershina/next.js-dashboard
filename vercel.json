@@ -1,6 +1,3 @@
 {
-  "buildCommand": "pnpm install && pnpm run build",
-  "env": {
-    "TSCONFIG_PATH": "tsconfig.production.json"
-  }
+  "buildCommand": "copy tsconfig.production.json tsconfig.json && pnpm install && pnpm run build"
 }
