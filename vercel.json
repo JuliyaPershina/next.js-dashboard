@@ -1,3 +1,6 @@
 {
-  "buildCommand": "pnpm add -D typescript@latest && pnpm run build"
+  "buildCommand": "pnpm install && pnpm run build",
+  "env": {
+    "TSCONFIG_PATH": "tsconfig.production.json"
+  }
 }
